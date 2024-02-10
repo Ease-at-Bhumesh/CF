@@ -1,1 +1,1 @@
-# CF
+Daily Codeforces Solution Update - Consistency
