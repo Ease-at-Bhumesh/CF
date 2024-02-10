@@ -1,0 +1,1 @@
+{"name":"Local: We Got Everything Covered!","url":"/home/bhumesh/Documents/Coding/We Got Everything Covered!.cpp","tests":[{"id":1706367032570,"input":"4\n1 2\n2 1\n2 2\n2 3","output":"ab\naa\nabab\nabcabc"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bhumesh/Documents/Coding/We Got Everything Covered!.cpp","group":"local","local":true}

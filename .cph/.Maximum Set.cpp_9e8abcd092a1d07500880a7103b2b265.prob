@@ -1,0 +1,1 @@
+{"name":"Local: Maximum Set","url":"/home/bhumesh/Documents/Coding/Maximum Set.cpp","tests":[{"id":1706894631096,"input":"4\n3 11\n13 37\n1 22\n4 100","output":"2 4\n2 6\n5 1\n5 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bhumesh/Documents/Coding/Maximum Set.cpp","group":"local","local":true}
