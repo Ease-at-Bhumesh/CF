@@ -1,0 +1,1 @@
+{"name":"Local: Living Sequence","url":"/home/bhumesh/Documents/Coding/Living Sequence.cpp","tests":[{"id":1707819049261,"input":"7\n3\n5\n22\n10\n100\n12345\n827264634912","output":"3\n6\n25\n11\n121\n18937\n2932285320890"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bhumesh/Documents/Coding/Living Sequence.cpp","group":"local","local":true}
