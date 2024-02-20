@@ -1,17 +1,17 @@
-#include<bits/stdc++.h>
-#define ll long long
-#define pii pair<ll,ll>
-#define fs first
-#define ss second
-#define fr(i,n) for(ll i=0;i<n;i++)
-#define fr1(i,a,n) for(ll i=a;i<n;i++)
-#define rfr(i,n,a) for(ll i=n;i>=a;i--)
-#define mp make_pair
-#define pb push_back
-#define all(v) v.begin(),v.end()
-using namespace std;
-const  ll mod=998244353;
-string ans;
+// #include<bits/stdc++.h>
+// #define ll long long
+// #define pii pair<ll,ll>
+// #define fs first
+// #define ss second
+// #define fr(i,n) for(ll i=0;i<n;i++)
+// #define fr1(i,a,n) for(ll i=a;i<n;i++)
+// #define rfr(i,n,a) for(ll i=n;i>=a;i--)
+// #define mp make_pair
+// #define pb push_back
+// #define all(v) v.begin(),v.end()
+// using namespace std;
+// const  ll mod=998244353;
+// string ans;
 // bool nerd(int t,char &c,vector<string>&v,ll &mask,ll temp,string l,string &res){
 //     if(t>=v.size()){
 //         if(mask==temp){
