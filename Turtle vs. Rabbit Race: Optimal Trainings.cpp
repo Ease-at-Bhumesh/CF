@@ -26,7 +26,7 @@ void solve(){
         l--;
         ll low=l;
         ll high=n-1;
-        ll res=-1;
+        ll res=l;
         while(low<=high){
             ll mid=(low+high)/2;
             ll value=v[mid];
@@ -44,7 +44,7 @@ void solve(){
         ll value2=INT_MAX;
         if(res+1<n) value2=v[res+1];
         if(l>0) value2-=v[l-1];
-        if(abs(value1)<=abs(value2) and res!=l){
+        if(abs(value1-u)<abs(value2-u)){
             cout<<res+1<<" ";
         }
         else cout<<res+2<<" ";
