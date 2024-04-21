@@ -1,0 +1,1 @@
+{"name":"Local: Stickogon","url":"/home/bhumesh/Documents/Coding/Stickogon.cpp","tests":[{"id":1713710240793,"input":"4\n1\n1\n2\n1 1\n6\n2 2 3 3 3 3\n9\n4 2 2 2 2 4 2 4 4","output":"0\n0\n1\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bhumesh/Documents/Coding/Stickogon.cpp","group":"local","local":true}
