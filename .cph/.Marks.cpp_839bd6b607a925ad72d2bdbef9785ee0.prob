@@ -1,0 +1,1 @@
+{"name":"Local: Marks","url":"/home/bhumesh/Documents/Coding/Marks.cpp","tests":[{"id":1716402194711,"input":"4 5\n1 0 5 4 2\n1 5 6 4 8\n2 3 4 2 1\n2 3 4 9 8","output":"52"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bhumesh/Documents/Coding/Marks.cpp","group":"local","local":true}
