@@ -12,25 +12,25 @@
 using namespace std;
 const  ll mod=998244353;
 void solve(){
-    ll n;
+    int n;
     cin>>n;
-    set<ll>s;
+    map<ll,ll>m;
+    ll res=0;
+    ll maxi=((1<<31)-1);
     fr(i,n){
-        ll k;cin>>k;
-        s.insert(k);
+        ll a;cin>>a;
+        ll a_dash=a^maxi;
+        if(m.count(a_dash)){
+            m[a_dash]--;
+            if(m[a_dash]==0) m.erase(a_dash);
+        }
+        else{
+            m[a]++;
+            res++;
+        }
     }
-    vector<ll>v;
-    for(auto i:s) v.push_back(i);
-    vector<int>pre(v.size());
-    pre[0]=v[0];
-    for(int i=1;i<v.size();i++) pre[i]=v[i]-v[i-1];
-    pre[pre.size()-1]=1;
-    for(int i=pre.size()-2;i>=0;i--){
-        if(pre[i]==1) pre[i]=pre[i+1]^1;
-        else pre[i]=1;
-    }
-    if(pre[0]==1) cout<<"Alice"<<endl;
-    else cout<<"Bob"<<endl;
+    cout<<res<<endl;
+    return ;
 }
 int main(){
     ios_base::sync_with_stdio(false);

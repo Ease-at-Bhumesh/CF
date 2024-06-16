@@ -3,5 +3,6 @@
         "ostream": "cpp",
         "iostream": "cpp",
         "valarray": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
