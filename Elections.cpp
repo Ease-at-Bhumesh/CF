@@ -32,8 +32,16 @@ void solve(){
                 temp+=sum;
             }
         }
-        if(send.upper_bound(temp)!=send.end()){
-            res[i]=sstart.size()+1;
+        if(send.size() and send.upper_bound(temp)!=send.end()){
+            if(res[i]==0){
+                auto it=send.end();
+                it--;
+                if(temp+sum>=*it) res[i]=sstart.size();
+                else res[i]=sstart.size()+1;
+            }
+            else{
+                res[i]++;
+            }
         }
         sum+=current;
         sstart.insert(current);
