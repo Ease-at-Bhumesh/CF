@@ -1,0 +1,1 @@
+{"name":"Local: Circle Perimeter","url":"/home/bhumesh/Documents/Coding/Circle Perimeter.cpp","tests":[{"id":1719407065061,"input":"6\n1\n2\n3\n4\n5\n1984","output":"8\n16\n20\n24\n40\n12504"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/bhumesh/Documents/Coding/Circle Perimeter.cpp","group":"local","local":true}
